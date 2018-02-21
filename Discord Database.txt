@@ -1,0 +1,18 @@
+TABLES:
+
+Servers: (Servers the Bot is connected to)
+	Server ID
+	Server Name
+
+Events: (Different Events the Bot is tracking)
+	Event ID
+	Time
+	Date
+
+Member: (Members of the Server)
+	MemberID PK
+	Name
+
+Event Details:
+	MemberID
+	EventID
